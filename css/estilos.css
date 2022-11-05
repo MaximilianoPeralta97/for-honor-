@@ -1,7 +1,10 @@
 html{
+    max-width: 400%;
     height: 100%;
 }
+
 div.contenedor{
+    max-width: 400%;
     float: right;
     text-transform: uppercase;
     word-spacing: 5px;
@@ -10,6 +13,10 @@ div.contenedor{
 }
 
 .titulo{
+    padding: 10px;
+    width:100%;
+    height: auto;
+    margin:auto;
     font-family: 'Rye', cursive;
     text-transform: uppercase;
     text-align: center;
@@ -18,6 +25,9 @@ div.contenedor{
     
 }
 body{
+    width:100%;
+    height:auto;
+    max-width: 400%;
     margin:0;
     padding:0;
     background: linear-gradient(#391E46,#1E4639);
@@ -27,6 +37,7 @@ body{
 nav a{
     text-decoration: none;
     color:darkgoldenrod;
+    padding: 10px;
 }
 a:hover{
     background-color: #182747;
@@ -41,23 +52,30 @@ a:hover{
     font-family:'Kanit', sans-serif;
 }
 .clase_uno{
+    width:100%;
     text-align: center;
     color:#FFD372;
     text-shadow: 2px 2px 2px slategray;
 }
 .caballeros{
+    text-align: justify;
+    width: 100%;
+    max-width: 400%;
     padding: 5px;
     color:#F2F2FF;
     width: 20%;
     float: left;
     overflow: auto;
-    max-width: 400px;
 
 
 
 }
+/*Usamos el width " X %" y height en auto para que donde se lo abra se ajuste a la pantalla automaticamente */
 .miniatura{
-    height: 200px;
+    width:80%;
+    margin: auto;
+    max-width: 400%;
+    height: auto;
     padding:5px;
     border-radius: 100px;
 }
