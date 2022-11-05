@@ -1,0 +1,63 @@
+html{
+    height: 100%;
+}
+div.contenedor{
+    float: right;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    padding: 5px;
+    
+}
+
+.titulo{
+    font-family: 'Rye', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    color:gold;
+    text-shadow: 2px 2px 2px slategrey;
+    
+}
+body{
+    margin:0;
+    padding:0;
+    background: linear-gradient(#391E46,#1E4639);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav a{
+    text-decoration: none;
+    color:darkgoldenrod;
+}
+a:hover{
+    background-color: #182747;
+
+}
+.introduction{
+    text-align: center;
+    color:#F2F2FF;
+    padding:5px;
+}
+.description{
+    font-family:'Kanit', sans-serif;
+}
+.clase_uno{
+    text-align: center;
+    color:#FFD372;
+    text-shadow: 2px 2px 2px slategray;
+}
+.caballeros{
+    padding: 5px;
+    color:#F2F2FF;
+    width: 20%;
+    float: left;
+    overflow: auto;
+    max-width: 400px;
+
+
+
+}
+.miniatura{
+    height: 200px;
+    padding:5px;
+    border-radius: 100px;
+}
